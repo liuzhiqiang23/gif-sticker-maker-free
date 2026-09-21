@@ -1,0 +1,4 @@
+# Python dependencies
+requests>=2.28
+imageio>=2.30
+imageio-ffmpeg>=0.4    # bundles ffmpeg, no system install needed
