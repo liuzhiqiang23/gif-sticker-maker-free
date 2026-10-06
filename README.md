@@ -24,6 +24,10 @@ cp -r gif-sticker-maker-free ~/.zcode/skills/gif-sticker-maker
 | 静图生成 | `sf_image_edit.py` — 硅基流动 Qwen-Image-Edit（**看得到原图**，帽子/五官/服装全保留，约 ¥0.2-0.4/张） | `cogview_image.py` — 智谱 cogview-3-flash（免费，纯文生图，形象会漂移） |
 | 动画 | `cogvideox_video.py` — 智谱 cogvideox-flash（免费档，图生视频） | 同左 |
 
+### 照片隐私
+
+使用 `sf_image_edit.py` 时，源图片会发送给硅基流动的图像生成服务处理。请勿上传身份证件、医疗资料、未成年人照片或其他敏感图片；上传前请自行确认服务商的数据处理与留存条款。本项目不会替服务商承诺图片的保存期限或使用方式。
+
 - `BIGMODEL_API_KEY`：动画必需（免费档）；key 在 https://open.bigmodel.cn
 - `SILICONFLOW_API_KEY`：形象保真必需（按张计费）；key 在 https://cloud.siliconflow.cn
 
