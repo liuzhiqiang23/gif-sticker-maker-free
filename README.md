@@ -1,5 +1,7 @@
 # gif-sticker-maker-free 🍋
 
+**[English](./README_EN.md) | 中文**
+
 **照片 → Funko Pop 动图表情包**，一条龙流水线：形象保真静态化 → 动画 → 去水印/去角标 → 字幕 → 压体积（微信表情 ≤1MB）。
 
 改编自 [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) 的 `gif-sticker-maker`（MIT），把 MiniMax 付费图片/视频 API 全部替换为**智谱 bigmodel 免费档 + 硅基流动 Qwen-Image-Edit**，并补齐了实战中踩出来的全部坑（去章、字幕时序、限流、体积）。
